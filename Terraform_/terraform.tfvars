@@ -1,0 +1,12 @@
+aws_region        = "ap-south-1"
+resource_prefix   = "app"
+instance_type     = "t2.medium"
+volume_size       = 20
+key_name          = "prajwalone"
+docker_image      = "prajwalthaware/prajwalone"
+container_port    = 8081
+host_port         = 8081
+vpc_cidr          = "10.0.0.0/16"
+public_subnet_cidr = "10.0.1.0/24"
+ssh_access_cidr   = ["0.0.0.0/0"]  
+web_access_cidr   = ["0.0.0.0/0"]
