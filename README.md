@@ -11,7 +11,7 @@ Docker & Docker Hub
 
 Python 3.9 + FastAPI
 
-NGINX (reverse proxy)
+NGINX (proxy)
 
 
 📦 Docker Hub: prajwalthaware/prajwalone
